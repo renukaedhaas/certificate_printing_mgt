@@ -1,0 +1,61 @@
+ngb-carousel .wrapper {
+    position: relative;
+    height: 0;
+    padding-top: 35%; /* Keep ratio for 900x500 images */
+  }
+  
+  ngb-carousel .wrapper>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+
+  .feedback1{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+  }
+  .container{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+  }
+
+  .textAboverContainer{   font-family: 'GooperDeck7-Regular',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px !important;
+  line-height: 110%;
+  text-align: center;
+  color: #0F4C36;
+  }
+
+  .textBelowContainer{
+    font-family: 'Outfit-Regular',sans-serif;
+    color: #0A4C36;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 225%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  

@@ -1,0 +1,68 @@
+<div style="width: 100%; background-color: #009351; height: 79px; margin: 20px 0px 0px; padding:0px 0px;" >
+    <a style="margin-left: 50px; vertical-align: middle;">
+         <img src="../assets/logo1.png" height="50" width="131" >
+    </a>
+
+    
+    <button  class="menucss" [matMenuTriggerFor]="Menu1">Menu1</button>
+    <button class="menucss"  [matMenuTriggerFor]="Menu2">Menu2</button> 
+    <button class="menucss" [matMenuTriggerFor]="Menu3">Menu3</button> 
+    <button class="menucss" [matMenuTriggerFor]="Menu4">Menu4</button> 
+    <button class="menucss">Menu5</button> 
+    <button class="menucss">Menu6</button>
+    <a  style="padding: 20px; ">
+       <style>
+        ::placeholder {
+          color:#fff6f4 ;}
+        </style>
+       <input type="text" placeholder="Search" class="searchcss" >
+    </a>
+    <a style="padding: 20px; ">
+        <img src="https://static.ugaoo.com/version1651100872/frontend/Agnie/Ugaoo/en_US/images/icons/newmyaccount.svg" 
+        alt="Account" title="My Account" width="24" style="margin-top: 15px;">
+    </a>
+    <a style="padding: 20px; ">
+        <img  src="https://static.ugaoo.com/version1651100872/frontend/Agnie/Ugaoo/en_US/images/icons/newcart.svg"
+         alt="Cart" title="My Cart" width="23" >    
+    </a>
+    
+</div>
+
+
+
+    <mat-menu #Menu1="matMenu">
+        <button mat-menu-item>Submenu1</button>
+        <button mat-menu-item>Submenu2</button>
+        <button mat-menu-item>Submenu3</button>
+        <button mat-menu-item>Submenu4</button>
+        
+    </mat-menu>
+    
+      <mat-menu #Menu2="matMenu">
+        <button mat-menu-item>Submenu21</button>
+        <button mat-menu-item>Submenu22</button>
+        <button mat-menu-item>Submenu23</button>
+        <button mat-menu-item>Submenu24</button>
+       
+      </mat-menu>
+      <mat-menu #Menu3="matMenu">
+        <button mat-menu-item>Submenu31</button>
+        <button mat-menu-item>Submenu32</button>
+        <button mat-menu-item>Submenu33</button>
+        <button mat-menu-item>Submenu34</button>
+       
+      </mat-menu>
+      <mat-menu #Menu4="matMenu">
+        <button mat-menu-item>Submenu41</button>
+        <button mat-menu-item>Submenu42</button>
+        <button mat-menu-item>Submenu43</button>
+        <button mat-menu-item>Submenu44</button>
+      </mat-menu>
+
+    
+    
+    
+    
+    
+    
+    

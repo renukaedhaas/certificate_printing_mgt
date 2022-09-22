@@ -1,0 +1,27 @@
+.searchcss{
+    height: 37px;
+               background: #009351; 
+       background-image: url(https://static.ugaoo.com/version1651100872/frontend/Agnie/Ugaoo/en_US/images/icons/newsearch.svg);
+       background-size: 21px;
+       color: #fff6f4;
+       padding: 0 20px;
+       display: inline-block;
+    vertical-align: middle;
+       background-repeat: no-repeat;
+        background-position: left;
+        border:0 solid #fff6f4;
+        border-bottom-width:1px ; 
+        font-size:16px;
+}
+.menucss{
+    color:white;
+    background: #009351;
+     font-size:16px;
+      font-weight :400;
+      padding: 30px;
+      text-decoration: none;
+      border: none;
+      font-family: 'GooperDeck7-Regular', sans-serif;
+      
+
+}
